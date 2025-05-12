@@ -1,0 +1,50 @@
+.language {
+  display: inline;
+}
+.heading {
+  font-size: 20px;
+   color: black;
+}
+#source {
+  width: 100% !important;
+  background: black;
+  height: 80vh;
+  font-size: 15px;
+  resize: vertical;
+  color: white;
+}
+#input {
+  background: black;
+  width: 100% !important;
+  height: 20vh;
+  resize: vertical;
+  font-size: 15px;
+  color: white;
+  margin: 10px;
+}
+#output{
+  width: 100% !important;
+  background: black;
+  height: 50vh;
+  font-size: 15px;
+  resize: vertical;
+  color: rgb(255, 255, 255);
+}
+/* #output {
+  background: #cccccc52;
+  
+  width: 50% !important;
+  /* width: 50%; */
+  /* height: 80vh;
+  position: absolute;
+  top:18%;
+  font-size: 18px;
+  right: 0;
+  resize: none;
+  
+  margin: 10px;
+  color: white; 
+} */
+.language {
+  width: 150px;
+}

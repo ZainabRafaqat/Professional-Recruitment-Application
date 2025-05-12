@@ -1,0 +1,122 @@
+
+.Job-Body {
+
+    padding-top: 163px; 
+    background-color: white;
+    width: 100%;
+    height: 100%;
+  
+   
+  }
+
+
+.job-container{
+    display: flex;
+   
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 100px;
+    width: 80%;
+    margin-left: 220px;
+    margin-right: 220px;
+    margin-top: 21px;
+    padding-top: 40px;
+    
+}
+.icons{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+.jobbtn{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 40px;
+    margin-top: 10px;
+}
+#btn{
+    background-color: #3A668B;
+    width: 213px;
+    height: 53px;
+    color: white;
+    border-radius: 30px;
+   
+}
+
+.React-icons { 
+    color: rgb(7, 0, 0);
+    height: 20px;
+    width: 30px;
+    display: inline;
+
+
+
+  }
+.job-card{
+
+    border: 1px;
+    width: 344px;
+    height: 330px;
+    background: rgba(58, 102, 139, 0.06);
+    border: 1px solid rgba(58, 102, 139, 0.9);
+    border-radius: 10px;
+}
+.job-card:hover  {
+    transform: perspective(6.5cm);
+    transform: scale3d(1.1, 1.1, 1.1);
+   
+
+  }
+.title h2{
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 27px;
+
+text-align: center;
+/* identical to box height */
+color: #000000;
+}
+.job-info h3{
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+padding-top: 20px;
+padding-left: 40px;
+/* identical to box height */
+color: rgba(0, 0, 0, 0.7);
+}
+.job-footer h3{
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    padding-top: 15px;
+   
+  
+    /* identical to box height */
+    color: rgba(0, 0, 0, 0.7);
+    }
+.job-info .location{
+        color: #3A668B;
+        }
+
+.card-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: 3px solid #C8C5C5 ;
+    background: rgba(176, 196, 212, 0.06);
+    width: 325px;
+    margin-left: 7px;
+    margin-top: 35px;
+    padding-left: 23px;
+    
+    
+   
+}
